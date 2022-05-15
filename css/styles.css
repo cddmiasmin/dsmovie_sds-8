@@ -69,7 +69,7 @@ a:hover {
 }
 
 #dsmovie-card-list {
-    padding: 40px 0;
+    padding: 30px 10px;
 }
 
 .dsmovie-card {
@@ -83,14 +83,14 @@ a:hover {
 
 .dsmovie-card-description {
     background-color: var(--black);
-    padding: 10px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
     color: var(--white);
-    height: 220px;
+    height: 210px;
 }
 
 .dsmovie-card-description h3 {
@@ -135,7 +135,7 @@ a:hover {
     font-size: 12;
     font-weight: 400;
     color: var(--white);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 /* FORM */
