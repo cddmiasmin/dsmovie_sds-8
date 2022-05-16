@@ -69,9 +69,52 @@ a:hover {
 }
 
 #dsmovie-card-list {
-    padding: 30px 10px;
+    padding: 0 10px;
 }
 
+.dsmovie-pagination-container{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-pagination-box{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dsmovie-pagination-box button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--white);
+    align-items: center;
+}
+
+.dsmovie-pagination-box button img{
+    filter: brightness(0) saturate(100%) invert(8%) sepia(57%) saturate(6412%) hue-rotate(3deg) brightness(99%) contrast(106%);
+}
+
+.dsmovie-pagination-box button:disabled{
+    border: 1px solid #a4a4a4;
+}
+
+.dsmovie-pagination-box button:disabled img{
+    filter: unset;
+}
+
+.dsmovie-flip-horizontal{
+    transform: rotate(180deg);
+}
+
+.dsmovie-pagination-box p{
+    margin: 0;
+    font-size: 12px;
+    color: var(--black);
+    font-weight: 600;
+}
 .dsmovie-card {
     width: 100%;
 }
